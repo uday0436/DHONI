@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'vikki/index'
+
+  get 'vikki/new'
+
+  get 'vikki/edit'
+
+  get 'vikki/show'
+
   resources :users do 
   	collection do 
        get 'sign_in'
