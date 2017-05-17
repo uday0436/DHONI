@@ -1,0 +1,2 @@
+module VikkiHelper
+end
