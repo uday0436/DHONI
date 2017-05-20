@@ -1,4 +1,24 @@
 Rails.application.routes.draw do
+  get 'products/new'
+
+  get 'products/index'
+
+  get 'products/edit'
+
+  get 'products/delete'
+
+  get 'products/drop'
+
+  get 'users/new'
+
+  get 'users/index'
+
+  get 'users/edit'
+
+  get 'users/delete'
+
+  get 'users/drop'
+
   resources :users do 
   	collection do 
        get 'sign_in'

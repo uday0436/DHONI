@@ -1,0 +1,2 @@
+class ManiController < ApplicationController
+end
